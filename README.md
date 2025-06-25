@@ -64,6 +64,64 @@ The core pipeline consists of the following steps:
 | **Classification**       | `MoritzLaurer/deberta-v3-large-zeroshot-v2.0`               |
 
 All models are loaded with GPU support when available using:
-```python
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
+## Metadata Structure
+
+The application outputs comprehensive metadata for each processed document in a structured JSON format. Below is an example of the metadata output:
+
+```json
+{
+  "filename": "example.pdf",
+  "summary": "Concise document summary...",
+  "keywords": ["credit scoring", "model performance", "feature importance"],
+  "entities": {
+    "ORG": ["World Bank", "Amazon"],
+    "DATE": ["2021"],
+    "PERSON": ["John Doe"]
+  },
+  "category": "Finance",
+  "text_length": 2043
+}
+```
+## Streamlit Web Interface
+The intuitive Streamlit interface offers the following functionalities:
+
+File Upload: Easily upload your documents in PDF, DOCX, or TXT formats.
+
+View Metadata: Instantly see extracted Summary, Keywords, Entities (Organizations, Dates, Persons), and Category.
+
+Download JSON: Download the complete metadata for your document as a JSON file.
+
+Visual Preview: Get a direct visual preview of the document's summaries and identified topics.
+
+## Deployment
+The Streamlit app is designed for lightweight operation and can be run in various environments. For convenient public access, it supports ngrok tunneling, making it ideal for use within Google Colab.
+
+## Technologies Used
+Python 3, Streamlit, spaCy, Transformers (HuggingFace), KeyBERT, BERTopic, SentenceTransformers, PyMuPDF, pdf2image, pytesseract, Google Colab (GPU-enabled)
+
+## How to Run
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Launch Streamlit app (in Colab):
+
+python
+Copy
+Edit
+!streamlit run app.py &
+from pyngrok import ngrok
+public_url = ngrok.connect(port=8501)
+print(public_url)
