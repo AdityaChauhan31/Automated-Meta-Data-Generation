@@ -1,7 +1,12 @@
-PyMuPDF python-docx pytesseract pdf2image pillow
+PyMuPDF 
+python-docx 
+pytesseract 
+pdf2image
+pillow
 keybert
 unidecode
 sentence-transformers
 spacy
 transformers
-streamlit pyngrok
+streamlit 
+pyngrok
