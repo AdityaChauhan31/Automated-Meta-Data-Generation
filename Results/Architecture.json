@@ -1,0 +1,80 @@
+{
+  "filename": "Architecture.pdf",
+  "summary": " Enhanced Pegasus Architecture for News Summarization. We build on the standard PEGASUS encoder decoder transformer and augment it with five advanced components. The base model remains a multi layer Transformer (stacked self attention and feed forward blocks) pre trained with the gap sentence generation objective.",
+  "keywords": [
+    "pegasus interleave",
+    "encodings original pegasus",
+    "pegasus tokenizer track",
+    "pegasus backbone pretraining",
+    "pegasus encoder decoder",
+    "pegasus uses standard",
+    "build standard pegasus",
+    "positional encodings pegasus",
+    "pegasus tokenizer",
+    "integrating hta pegasus",
+    "integration pegasus interleave",
+    "pegasus insight",
+    "pegasus based model",
+    "encodings pegasus based",
+    "pegasus architecture news"
+  ],
+  "entities": {
+    "CARDINAL": [
+      "1.3",
+      "5",
+      "1.2",
+      "512",
+      "1.",
+      "3",
+      "256",
+      "2.3",
+      "12",
+      "4",
+      "2.2.",
+      "2.1",
+      "one",
+      "1.1",
+      "thousands",
+      "16",
+      "2",
+      "five",
+      "1024",
+      "768",
+      "1",
+      "Two",
+      "two",
+      "three",
+      "2.4"
+    ],
+    "DATE": [
+      "2012"
+    ],
+    "PRODUCT": [
+      "Company X's",
+      "Pegasus",
+      "PEGASUS",
+      "Advanced Positional Encodings Advanced Positional Encodings",
+      "Transformer"
+    ],
+    "PERSON": [
+      "PEGASUS"
+    ],
+    "ORG": [
+      "TF IDF",
+      "MA",
+      "GTC",
+      "PEGASUS",
+      "Company X",
+      "HTA",
+      "HTA MA"
+    ],
+    "ORDINAL": [
+      "first",
+      "second",
+      "Second",
+      "First"
+    ]
+  },
+  "category": "Technology",
+  "text_length": 18862
+}

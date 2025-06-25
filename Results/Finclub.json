@@ -1,1 +1,81 @@
-
+{
+  "filename": "Finclub Summer Project 2 (2025) (1).pdf",
+  "summary": "Bank A aims to improve its credit risk management framework by developing a forward looking Behaviour Score. The goal is to build a model that can accurately flag potential defaulters in advance.",
+  "keywords": [
+    "credit card customers",
+    "model helps bank",
+    "indicates customer defaulted",
+    "bank understand default",
+    "bank risk",
+    "default risk",
+    "influence default risk",
+    "predict customer",
+    "card customer default",
+    "model predict customer",
+    "default risk basic",
+    "improve credit risk",
+    "card behaviour score",
+    "predictive like credit",
+    "credit card behaviour"
+  ],
+  "entities": {
+    "ORG": [
+      "Bank A",
+      "Finance Club"
+    ],
+    "DATE": [
+      "the most recent month",
+      "1 last month",
+      "month 5",
+      "April",
+      "the following month",
+      "Month 0",
+      "May",
+      "month 4",
+      "6 month",
+      "Summer 2025",
+      "that many months",
+      "the end of month m",
+      "month m",
+      "6 months",
+      "one month",
+      "next month",
+      "previous months",
+      "same month"
+    ],
+    "CARDINAL": [
+      "0",
+      "12",
+      "3",
+      "Two",
+      "25,000",
+      "1",
+      "4",
+      "30",
+      "5",
+      "20",
+      "5,000",
+      "6",
+      "2",
+      "11"
+    ],
+    "PRODUCT": [
+      "lightgbm",
+      "Jupyter",
+      "numpy",
+      "scikit learn",
+      "Collab",
+      "matplotlib",
+      "XGBoost",
+      "pandas",
+      "seaborn",
+      "Python",
+      "xgboost"
+    ],
+    "ORDINAL": [
+      "first"
+    ]
+  },
+  "category": "Finance",
+  "text_length": 7270
+}
