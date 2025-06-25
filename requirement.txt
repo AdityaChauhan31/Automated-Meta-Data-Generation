@@ -1,8 +1,7 @@
-! pip install PyMuPDF python-docx pytesseract pdf2image pillow
-! pip install keybert
-! pip install unidecode
-! pip install sentence-transformers
-! pip install spacy
-! python -m spacy download en_core_web_trf
-! pip install transformers
-! pip install streamlit pyngrok
+PyMuPDF python-docx pytesseract pdf2image pillow
+keybert
+unidecode
+sentence-transformers
+spacy
+transformers
+streamlit pyngrok
