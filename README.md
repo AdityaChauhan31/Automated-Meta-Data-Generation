@@ -103,6 +103,8 @@ The Streamlit app is designed for lightweight operation and can be run in variou
 Python 3, Streamlit, spaCy, Transformers (HuggingFace), KeyBERT, BERTopic, SentenceTransformers, PyMuPDF, pdf2image, pytesseract, Google Colab (GPU-enabled)
 
 ## How to Run
+
+Complete Guide in this colab file - https://colab.research.google.com/drive/1w9IYMINVRPfo8yZLkakXurIlXezDjLwi?usp=sharing 
 Clone the repository:
 
 bash
