@@ -6,7 +6,6 @@ python-docx
 pytesseract 
 pdf2image
 pillow
-keybert
 unidecode
 spacy
 streamlit 
