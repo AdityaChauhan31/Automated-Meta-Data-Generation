@@ -1,4 +1,6 @@
-transformers==4.40.2
+transformers==4.41.2
+sentence-transformers==2.7.0
+keybert==0.8.4
 PyMuPDF 
 python-docx 
 pytesseract 
@@ -6,7 +8,6 @@ pdf2image
 pillow
 keybert
 unidecode
-sentence-transformers
 spacy
 streamlit 
 pyngrok
