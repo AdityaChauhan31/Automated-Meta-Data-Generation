@@ -1,3 +1,4 @@
+transformers==4.40.2
 PyMuPDF 
 python-docx 
 pytesseract 
@@ -7,6 +8,7 @@ keybert
 unidecode
 sentence-transformers
 spacy
-transformers
 streamlit 
 pyngrok
+sentencepiece
+accelerate
